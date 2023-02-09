@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.container{
+    background-color: rgb(14, 17, 8);
+    padding: 30px;
+}
+
+
+input[type="text"] {
+    padding: 20px 25px;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-top: 4px;
+}
+
+.buttons input{
+    background-color: #045c07;
+    border: none;
+    color: white;
+    padding: 30px 43px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    border-style: groove;
+}
+
+.buttons input:hover{
+    background-color: lightyellow;
+    color: #045c07;
+}
+
